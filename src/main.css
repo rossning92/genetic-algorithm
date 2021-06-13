@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+}
+
+.p5Canvas {
+  display: block;
+  width: auto !important;
+  height: auto !important;
+
+  display: block;
+  max-width: 1920px;
+  max-height: 1080px;
+  width: auto;
+  height: auto;
+}
+
+#chartCanvas {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: rgba(0, 0, 0, 0.9);
+  border: 1px solid gray;
+  padding: 10px;
+}
+
+#container {
+  position: absolute;
+  width: 1920px;
+  height: 1080px;
+}
+
+#pane {
+  position: absolute;
+  width: 300px;
+  right: 10px;
+  top: 10px;
+}
+
+#links {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-family: Monospace;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#links a {
+  color: white;
+  text-decoration: none;
+}
+
+#links a:hover {
+  color: white;
+}
+
+.buttondiv {
+  float: left;
+}

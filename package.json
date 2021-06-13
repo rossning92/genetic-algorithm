@@ -1,0 +1,30 @@
+{
+  "name": "generic-algorithm",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@types/matter-js": "^0.17.1",
+    "@types/p5": "^1.3.0",
+    "chart.js": "^3.3.2",
+    "dat.gui": "^0.7.7",
+    "matter-js": "^0.17.1",
+    "p5": "^1.3.1",
+    "tweakpane": "^3.0.2"
+  },
+  "devDependencies": {
+    "css-loader": "^5.2.6",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.3.1",
+    "style-loader": "^2.0.0",
+    "ts-loader": "^9.2.3",
+    "typescript": "^4.3.4",
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "scripts": {
+    "start": "webpack serve --mode development --devtool inline-source-map --hot",
+    "build": "webpack"
+  }
+}
