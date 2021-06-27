@@ -1,5 +1,5 @@
 {
-  "name": "generic-algorithm",
+  "name": "genetic-algorithm",
   "author": "Ross Ning <rossning92@gmail.com>",
   "version": "1.0.0",
   "main": "index.js",
